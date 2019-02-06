@@ -33,7 +33,7 @@ class HomeController extends Controller
         $categories = Category::all();
 
 
-        return view('front/home', compact('posts', 'categories', 'year'));
+        return view('front/home', compact('posts', 'categories'));
     }
 
 

@@ -27,7 +27,7 @@ class AdminPostsController extends Controller
 
 
 
-        return view('admin.posts.index', compact('posts','categories'));
+        return view('admin.posts.index', compact('posts'));
 
 
     }
